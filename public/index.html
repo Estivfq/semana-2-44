@@ -1,17 +1,338 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
-<head>
-    <title>PROYECTO SPRINT 2</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-</head>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <title>PROYECTO SPRINT 2</title>
+    </head>
 
-<body>
-    <div id="app">
-    </div>
-</body>
+    <body>
+         <!--Cabecera-->
+         <header>
+            <!--Navegador-->
+            <div class="nav-list">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" href="#">MEDIO AMBIENTE</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Inicio<span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#services">Servicios</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#news">Noticias</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#team">Equipo</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+                <!-- </section> -->
+                <!--Fin Navegador-->
+    
+                <!--Banner-->
+                <!-- <section> -->
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./img/banner.jpg" class="d-block w-100" alt="Banner">
+                    </div>
+                </div>
+            </div>
+                <!-- </section> -->
+                <!--Fin Banner-->
+            </div>
+        </header>
+        <!--Fin Cabecera-->
+
+        <!--Contenido Principal-->
+        <main>
+            <!--Sección de Servicios-->
+            <hr>
+            <section id="services" class="servicios">
+                <div class="container-fluid">
+                    <div class="row justify-content-center mb-5">
+                        <div class="col-sm-6 col-xs-12 col-lg-4 mt-5">   
+                            <div class="d-flex justify-content-center p-2">
+                                <img src="./img/glass_of_water.jpg" class="card-img-top" width="300" height="400" alt="Service1">
+                            </div>
+                            <div class="card">
+                                <!-- Servicio 1 -->
+                                <div class="card-body">   
+                                    <p class="card-text">Con esta herramienta podrás realizar un cálculo aproximado de tu consumo de agua diario y mensual.</p>
+                                    <a href="https://www.watercalculator.org/" class="btn btn-primary" target="_blank">Conocer más...</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-xs-12 col-lg-4 mt-5">
+                            <div class="d-flex justify-content-center p-2">
+                                <img src="./img/carbon_foot_print.jpeg" class="card-img-top" width="300" height="400" alt="Service2">
+                            </div>
+                            <div class="card">
+                                <!-- Servicio 2 -->
+                                <div class="card-body">
+                                    <p class="card-text">¿Sabes que es la huella de carbono? Con este aplicativo podrás saberlo e identificar hábitos que pueden estar dañando el planeta y tu salud.</p>
+                                    <a href="https://www.carbonfootprint.com/calculator.aspx" class="btn btn-primary" target="_blank">Conocer más...</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-xs-12 col-lg-4 mt-5">
+                            <div class="d-flex justify-content-center p-2">
+                                <img src="./img/recycle_bin.jpg" class="card-img-top" width="300" height="400" alt="Service3">
+                            </div>
+                            <div class="card">
+                                    <!-- Servicio 3 -->
+                                    <div class="card-body">
+                                        <p class="card-text">¿Tienes montones de basura electronica o baterias y no sabes que hacer con ella? Conoce los puntos de recolección más cercanos y cuida del planeta.</p>
+                                        <a href="https://www.redverde.co/" class="btn btn-primary" target="_blank">Conocer más...</a>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--Fin Sección de Servicios-->
+            <hr>
+            <!--Sección de Noticias-->
+            <section id="news" class="noticias">
+                <div class="container-fluid">
+                    <div class="row mt-md-5 mt-sm-5 mt-xs-5">
+                        <div class="col-lg-6 col-xs-12">
+                            <div class="d-flex justify-content-center align-items-center">
+                                <!-- Noticia 1 -->
+                                <div class="p-3">
+                                    <img src="https://placeimg.com/300/400/nature" alt="Noticia1">
+                                </div>
+                                
+                                <div class="p-2">
+                                    <h2>Calentamiento Global</h2>
+                                    <p>
+                                        El cambio climático avanza implacablemente a pesar de la pandemia COVID-19,
+                                        advierten los científicos.
+                                    </p>
+                                </div>
+                
+                            </div>
+                            <div class="d-flex container-fluid justify-content-end pb-2 mt-n2">
+                                <button type="button" class="btn btn-outline-info"><a href="https://news.un.org/es/story/2020/09/1480142">More information</a></button>
+                            </div>
+                        </div>
+                
+                        <div class="col-lg-6 col-xs-12">
+                            <div class="d-flex justify-content-center align-items-center">
+                                <!-- Noticia 2 -->
+                                <div class="p-3">
+                                    <img src="https://placeimg.com/300/400/nature" alt="Noticia2">
+                                </div>
+                
+                                <div class="p-2">
+                                    <h2>Deforestación del Amazonas</h2>
+                                    <p>
+                                        La deforestación del Amazonas alcanza niveles históricos
+                                        debido al consumo de carne.
+                                    </p>
+                                </div>
+                
+                            </div>
+                            <div class="d-flex container-fluid justify-content-end pb-2 mt-n2">
+                                <button type="button" class="btn btn-outline-info"><a href="https://www.nationalgeographic.es/medio-ambiente/2020/06/deforestacion-amazonas-alcanza-niveles-historicos-debido-consumo-carne">More information</a></button>
+                            </div>
+                        </div>
+                
+                        <div class="w-100"></div>
+                
+                        <div class="col-lg-6 col-xs-12">
+                            <div class="d-flex justify-content-center align-items-center">
+                                <!-- Noticia 3 -->
+                                <div class="p-3">
+                                    <img src="https://placeimg.com/300/400/nature" alt="Noticia3">
+                                </div>
+                
+                                <div class="p-2">
+                                    <h2>Nuevos Records en Temperaturas</h2>
+                                    <p>
+                                        Se rompen dos nuevos records de calor.
+                                        Las altas temperaturas fueron generadas por un sistema de alta presión
+                                        en los niveles medios y altos de la atmósfera.
+                                    </p>
+                                </div>
+                
+                            </div>
+                            <div class="d-flex container-fluid justify-content-end pb-2 mt-n2">
+                                <button type="button" class="btn btn-outline-info"><a href="https://www.infobae.com/america/mexico/2020/09/24/agosto-rompio-dos-nuevos-records-de-calor-esta-temporada-smn/">More information</a></button>
+                            </div>
+                        </div>
+                
+                        <div class="col-lg-6 col-xs-12">
+                            <div class="d-flex justify-content-center align-items-center">
+                                <!-- Noticia 4 -->
+                                <div class="p-3">
+                                    <img src="https://placeimg.com/300/400/nature" alt="Noticia4">
+                                </div>
+                
+                                <div class="p-2">
+                                    <h2>Deshielo en el Ártico</h2>
+                                    <p>
+                                        El brusco deshielo, así como los cambios en la hidrología del Ártico y las montañas,
+                                        han modificado la frecuencia y la intensidad de las perturbaciones que sufren los ecosistemas.
+                                    </p>
+                                </div>
+                
+                            </div>
+                            <div class="d-flex container-fluid justify-content-end pb-2 mt-n2">
+                                <button type="button" class="btn btn-outline-info"><a href="https://news.un.org/es/story/2020/09/1480142">More information</a></button>
+                            </div>
+                        </div>
+                
+                    </div>
+                </div>
+            </section>
+            <!--Fin Sección de Noticias-->
+            <hr>
+            <!--Sección del Equipo-->
+            <section id="team" class="equipo">
+                <div class="container-fluid">
+                    <div class="row justify-content-center mb-5">
+                
+                        <div class="col mt-5">
+                            <div class="card text-white bg-dark">
+                                <div class="d-flex justify-content-center p-2">
+                                    <img src="./img/Aquiles.jpg" width="200" height="200" alt="Aquiles Celedón">
+                                </div>
+                                <!-- Miembro 1 -->
+                                <div class="card-body">
+                                    <h5 class="card-title">Aquiles Elías Celedón Caballero</h5>
+                                    <p class="card-text">Ingeniero de Sistemas en formación.
+                                        29 años de edad, amante de los gatos y los videojuegos.</p>
+                                </div>
+                                <div class="card-footer">
+                                    <small class="text-muted">Last updated 3 mins ago</small>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div class="col mt-5">
+                            <div class="card text-white bg-danger">
+                                <div class="d-flex justify-content-center p-2">
+                                    <img src="./img/Wilmer.jpg" width="200" height="200" alt="Wilmer Alarcón">
+                                </div>
+                                <!-- Miembro 2 -->
+                                <div class="card-body">
+                                    <h5 class="card-title">Wilmer Andrés Alarcón Tobasura</h5>
+                                    <p class="card-text">Ingeniero Industrial, especializado en Producción y Logística de la Universidad Distrital.
+                                        Candidato a Magister en Investigación de Operaciones y Estadística.
+                                        Hobbies principales: lectura y Modelos de Producción.</p>
+                                </div>
+                                <div class="card-footer bg-white">
+                                    <small class="text-muted">Last updated 3 mins ago</small>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div class="col mt-5">
+                            <div class="card border-info text-info">
+                                <div class="d-flex justify-content-center p-2">
+                                    <img src="./img/Johan.jpg" width="200" height="200" alt="Johan Vega">
+                                </div>
+                                <!-- Miembro 3 -->
+                                <div class="card-body">
+                                    <h5 class="card-title">Johan Iván Vega Bello</h5>
+                                    <p class="card-text">Ingeniero de Sistemas en formación.
+                                        20 años de edad, amante de los videojuegos
+                                        y el mundo del hardware.</p>
+                                </div>
+                                <div class="card-footer">
+                                    <small class="text-muted">Last updated 3 mins ago</small>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div class="col mt-5">
+                            <div class="card text-white bg-danger">
+                                <div class="d-flex justify-content-center p-2">
+                                    <img src="./img/Foto.jpg" width="200" height="200" alt="Brandon Franco">
+                                </div>
+                                <!-- Miembro 4 -->
+                                <div class="card-body">
+                                    <h5 class="card-title">Brandon Estiven Franco Quiceno</h5>
+                                    <p class="card-text">Ingeniero de Sistemas y Computación, graduado de la Universidad Tecnológica de Pereira.
+                                        28 años de edad y apasionado por la lectura.</p>
+                                </div>
+                                <div class="card-footer bg-white">
+                                    <small class="text-muted">Last updated 3 mins ago</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--Fin Sección del Equipo-->
+        </main>
+        <!--Fin Contenido Principal-->
+        <hr>
+        <!--Pie de Página-->
+        <footer class="page-footer bg-secondary text-white pt-4">
+            <!-- Footer Text -->
+            <div class="container-fluid text-center text-md-left">
+
+                <!-- Grid row -->
+                <div class="row">
+
+                    <!-- Grid column -->
+                    <div class="col-md-6 mt-md-0 mt-3">
+
+                        <!-- Content 1-->
+                        <h5 class="text-uppercase font-weight-bold">Web Page</h5>
+                        <p>Esta página web está orientada a concientizar
+                            y dar herramientas que permita a las personas reaccionar adecuadamente
+                            al contexto medio-ambiental en que vivimos.</p>
+                        <a class="bg-white" href="https://github.com/Estivfq/semana-2-44.git" target="_blank">Repositorio</a>
+
+                    </div>
+                    <!-- Grid column -->
+
+                    <hr class="clearfix w-100 d-md-none pb-3">
+
+                    <!-- Grid column -->
+                    <div class="col-md-6 mb-md-0 mb-3">
+
+                        <!-- Content 2-->
+                        <h5 class="text-uppercase font-weight-bold">Autores</h5>
+                        <p>Aquiles Elías Celedón Caballero: securitynewbie@protonmail.com </p>
+                        <p>Wilmer Andrés Alarcón Tobasura: wilmeralarcont@gmail.com</p>
+                        <p>Johan Ivan Vega Bello: johan.ivan316@hotmail.com</p>
+                        <p>Brandon Estiven Franco Quiceno: estivenxd16@gmail.com</p>
+
+                    </div>
+                    <!-- Grid column -->
+
+                </div>
+                <!-- Grid row -->
+
+            </div>
+            <!-- Footer Text -->
+
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-1 bg-dark">© 2020 Copyright: DAD
+            </div>
+            <!-- Copyright -->
+        </footer>
+        <!--Fin Pie de Página-->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+        
+        <div id="app">
+        </div>
+    </body>
 
 </html>
