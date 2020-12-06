@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <page-services></page-services>
     <!--Movies-->
     <div class="container-fluid">
           <section-api></section-api>
@@ -23,6 +24,7 @@
 import TeamCard from './components/TeamCard.vue'
 import PageFooter from './components/PageFooter.vue'
 import SectionApi from './components/SectionApi'
+import PageServices from './components/PageServices.vue'
 
 export default {
   
@@ -31,6 +33,7 @@ export default {
     TeamCard,
     PageFooter,
     SectionApi,
+    PageServices,
   },
   data(){
     return{
