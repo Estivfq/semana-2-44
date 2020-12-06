@@ -9,18 +9,22 @@
         </div>
       </div>
     </div>
+    <!-- Footer -->
+    <page-footer></page-footer>
   </div>
 </template>
 
 <script>
 
 import TeamCard from './components/TeamCard.vue'
+import PageFooter from './components/PageFooter.vue'
 
 export default {
   
   name: 'App',
   components:{
-    TeamCard
+    TeamCard,
+    PageFooter
   },
   data(){
     return{
