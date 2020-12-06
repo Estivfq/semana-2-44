@@ -1,6 +1,10 @@
 <template>
   <div id="app">
-
+    <!--Movies-->
+    <div class="container-fluid">
+          <section-api></section-api>
+    </div>
+    <!--Team-->
     <h2 class="d-flex justify-content-center align-items-center">{{tittle}}</h2>
     <div class="container-fluid">
       <div class="row justify-content-center mb-5">
@@ -18,13 +22,15 @@
 
 import TeamCard from './components/TeamCard.vue'
 import PageFooter from './components/PageFooter.vue'
+import SectionApi from './components/SectionApi'
 
 export default {
   
   name: 'App',
   components:{
     TeamCard,
-    PageFooter
+    PageFooter,
+    SectionApi,
   },
   data(){
     return{
